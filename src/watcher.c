@@ -15,9 +15,6 @@
 #define COMMAND_BUF 1024 /*buffer to store the system command data*/
 #define LOGTIME_BUF 30 /*buffer to store the log datetime*/
 
-// TODO:
-// Clean up and make more dynamic
-
 // Prototypes
 void get_event(int fd, const char * watchedDir, const char * destinationDir, FILE *log);
 void copy_dir(const char * dir, const char * name, const char * destinationDir, FILE *log);
