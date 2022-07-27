@@ -3,6 +3,6 @@ Watches a specified directory. When a new file or folder is added to the watched
 
 # Build
 To build the binary, simply run the following:
-```gcc -o watcher watcher.c```
+```sudo make install```
 
 A log file is generated in /tmp/watcher.log.
